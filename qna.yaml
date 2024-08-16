@@ -1,0 +1,32 @@
+version: 2
+domain: event
+created_by: aaren
+seed_examples:
+  - question: |
+      When will the Third Plenary Session of the 20th Central Committee of the Communist Party of China be held?
+    answer: |
+      It was held in Beijing from July 15 to 18, 2024.
+  - question: |
+      How many people attend the Third Plenary Session of the 20th Central Committee of the Communist Party of China?
+    answer: |
+      Attending the session were 199 Central Committee members and 165 alternate Central Committee members.
+  - question: |
+      What is the abbreviation of the Third Plenary Session of the 20th Central Committee of the CPC?
+    answer: |
+      The Third Plenary Session of the 20th CPC Central Committee。
+  - question: |
+      When will the reform tasks proposed at the Third Plenary Session of the 20th CPC Central Committee be completed?
+    answer: |
+      It is planned to be completed in 2029, the 80th anniversary of the founding of the People's Republic of China.
+  - question: |
+       What areas should state-owned capital be developed in key areas ?
+    answer: |
+       national security and the lifeline of the national economy.
+task_description: |
+  中国共产党第二十届中央委员会第三次全体会议通过的《中共中央关于进一步全面深化改革 推进中国式现代化的决定》，以及会议公报。
+
+document:
+  repo: https://github.com/aarenw/ilabknowledge
+  commit: '74338995d8610847dbb2644cce2ab39e1751d278'
+  patterns:
+    - 20-3meeting*.md
